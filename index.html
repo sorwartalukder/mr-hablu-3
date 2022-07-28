@@ -17,11 +17,11 @@
     <!-- header  -->
     <header>
         <!-- navigation menu -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg my-lg-4 mt-5 mb-3">
             <div class="container">
                 <!-- logo -->
                 <div>
-                    <a class="navbar-brand" href="#">Hablu The Great</a>
+                    <a class="navbar-brand fs-4 hablu-t-color-heading" href="#">Hablu The Great</a>
                 </div>
                 <!--collapse btn  -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,75 +31,234 @@
                 </button>
                 <!-- nav iten -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                    <ul class="navbar-nav m-auto ">
+                        <li class="nav-item me-3">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="#">Courses </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="#">Deals </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="#">Success </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="#">About </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="#">Register</a>
                         </li>
                     </ul>
                     <!-- Register btn  -->
                     <form class="d-flex" role="Register">
-                        <button class="btn btn-outline-success" type="submit">Register</button>
+                        <button class="btn btn-outline-primary py-2 px-4 fs-4" type="submit">Register</button>
                     </form>
                 </div>
             </div>
         </nav>
         <!-- slider  -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-
-            <div class="carousel-inner container">
-                <div class="carousel-item active">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide container pb-lg-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- slider-1  -->
+                <div class="carousel-item active " data-bs-interval="10000">
                     <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Get Started Digital
-                            Learning
+                    <div class="carousel-caption ">
+                        <h5 class="h3 text-white">Get Started Digital
+                            <span class="d-block">Learning</span>
                         </h5>
-                        <p>It is a long established fact that a reader will be distracted by the readable
+                        <p class="d-none d-sm-block fs-5 text-white-50">It is a long established fact that a reader will
+                            be
+                            distracted
+                            by
+                            the readable
                             content of a page when looking at its layout.</p>
-                        <button class="btn btn-success" type="submit">Get Started</button>
+                        <a class="btn hablu-btn-bg text-white py-sm-2 px-sm-4 fs-4" href="#" role="button">Get
+                            Started</a>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <!-- slider-2  -->
+                <div class="carousel-item" data-bs-interval="2000">
                     <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                    <div class="carousel-caption">
+                        <h5 class="h3 text-white">Get Started Digital
+                            <span class="d-block">Learning</span>
+                        </h5>
+                        <p class="d-none d-sm-block fs-5 text-white-50">It is a long established fact that a reader will
+                            be
+                            distracted
+                            by
+                            the readable
+                            content of a page when looking at its layout.</p>
+                        <a class="btn hablu-btn-bg text-white py-sm-2 px-sm-4 fs-4" href="#" role="button">Get
+                            Started</a>
                     </div>
                 </div>
+                <!-- slider-3  -->
                 <div class="carousel-item">
                     <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <div class="carousel-caption">
+                        <h5 class="h3 text-white">Get Started Digital
+                            <span class="d-block">Learning</span>
+                        </h5>
+                        <p class="d-none d-sm-block fs-5 text-white-50">It is a long established fact that a reader will
+                            be
+                            distracted
+                            by
+                            the readable
+                            content of a page when looking at its layout.</p>
+                        <a class="btn hablu-btn-bg text-white py-sm-2 px-sm-4 fs-4" href="#" role="button">Get
+                            Started</a>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
     </header>
+    <main>
+        <!-- Courses section -->
+        <section class="container mt-5">
+            <div class="text-center">
+                <h1 class="lh-base hablu-t-color-heading">
+                    <span>Discover Our Popular</span> <span class="d-lg-block">Courses</span>
+                </h1>
+                <p class="lh-lg hablu-t-color-para">
+                    It is a long established fact that a reader will be distracted by the readable
+                    <span class="d-sm-block">content of a page when looking at its layout</span>
+                </p>
+            </div>
+            <!-- start course item -->
+            <div class="my-5 container">
+                <div class="row">
+                    <!-- course-1  -->
+                    <div class=" col-lg-6 mb-4">
+                        <div class="d-flex flex-column flex-md-row border border-2 rounded">
+                            <img class="img-fluid" src="images/course/course-1.png" alt="">
+                            <div class="p-4">
+                                <h4 class="hablu-t-color-heading">
+                                    Fundamental Of UI/UX Design
+                                </h4>
+                                <p class="hablu-t-color-para">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card.
+                                </p>
+                                <h5 class="hablu-price-color">
+                                    Price : 20$
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- course-2  -->
+                    <div class=" col-lg-6 mb-4">
+                        <div class="d-flex flex-column flex-md-row border border-2 rounded">
+                            <img class="img-fluid" src="images/course/course-2.png" alt="">
+                            <div class="p-4">
+                                <h4 class="hablu-t-color-heading">
+                                    Javascript Basic to advanced
+                                </h4>
+                                <p class="hablu-t-color-para">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card.
+                                </p>
+                                <h5 class="hablu-price-color">
+                                    Price : 20$
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- course-3  -->
+                    <div class=" col-lg-6 mb-4">
+                        <div class="d-flex flex-column flex-md-row border border-2 rounded">
+                            <img class="img-fluid" src="images/course/course-3.png" alt="">
+                            <div class="p-4">
+                                <h4 class="hablu-t-color-heading">
+                                    Fullstack Web Development
+                                </h4>
+                                <p class="hablu-t-color-para">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card.
+                                </p>
+                                <h5 class="hablu-price-color">
+                                    Price : 20$
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- course-4  -->
+                    <div class=" col-lg-6 mb-4">
+                        <div class="d-flex flex-column flex-md-row border border-2 rounded">
+                            <img class="img-fluid" src="images/course/course-4.png" alt="">
+                            <div class="p-4">
+                                <h4 class="hablu-t-color-heading">
+                                    Digital Marketing
+                                </h4>
+                                <p class="hablu-t-color-para">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card.
+                                </p>
+                                <h5 class="hablu-price-color">
+                                    Price : 20$
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- course-5  -->
+                    <div class=" col-lg-6 mb-4">
+                        <div class="d-flex flex-column flex-md-row border border-2 rounded">
+                            <img class="img-fluid" src="images/course/course-5.png" alt="">
+                            <div class="p-4">
+                                <h4 class="hablu-t-color-heading">
+                                    Photography Basic Rules
+                                </h4>
+                                <p class="hablu-t-color-para">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card.
+                                </p>
+                                <h5 class="hablu-price-color">
+                                    Price : 20$
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- course-6  -->
+                    <div class=" col-lg-6 mb-4">
+                        <div class="d-flex flex-column flex-md-row border border-2 rounded">
+                            <img class="img-fluid" src="images/course/course-6.png" alt="">
+                            <div class="p-4">
+                                <h4 class="hablu-t-color-heading">
+                                    Motion Graphics
+                                </h4>
+                                <p class="hablu-t-color-para">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card.
+                                </p>
+                                <h5 class="hablu-price-color">
+                                    Price : 20$
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- other course  -->
+                <div class="d-flex justify-content-center mt-2">
+                    <a class="btn hablu-btn-bg text-white py-sm-2 px-sm-4 fs-4" href="#" role="button">See More
+                        Courses</a>
+                </div>
+            </div>
+            <!-- end course section -->
+        </section>
+    </main>
 
 
 

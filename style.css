@@ -6,9 +6,18 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.hablu-bg {
-    /* background-color: rgba(8, 8, 8, 0.7);
-    /* #4a4847 */
+.hablu-t-color-heading {
+    color: #4A4A4A;
 }
 
-*/
+.hablu-t-color-para {
+    color: #777777;
+}
+
+.hablu-btn-bg {
+    background-color: #289BDE;
+}
+
+.hablu-price-color {
+    color: #289BDE;
+}
