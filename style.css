@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.cover-bg {
+    filter: brightness(50%);
+}
+
 .hablu-t-color-heading {
     color: #4A4A4A;
 }
